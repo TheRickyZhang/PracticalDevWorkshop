@@ -1,1 +1,1 @@
-# PracticalDevWorkshop
+This is the corresponding practice repository for my Web Workshop 1: Practical Programming

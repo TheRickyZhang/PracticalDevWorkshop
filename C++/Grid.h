@@ -10,6 +10,9 @@ public:
     void display() const;
     void setCell(int row, int col, bool alive);
     void update();
+    int getRows() const;
+    int getCols() const;
+    const std::vector<std::vector<bool>>& getCurrentGrid() const;
 
 private:
     int rows, cols;

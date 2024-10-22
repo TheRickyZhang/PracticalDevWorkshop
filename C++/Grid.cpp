@@ -5,6 +5,18 @@ using namespace std;
 
 Grid::Grid(int rows, int cols) : rows(rows), cols(cols), currentGrid(rows, vector<bool>(cols, false)), nextGrid(rows, vector<bool>(cols, false)) {}
 
+int Grid::getRows() const {
+    return rows;
+}
+
+int Grid::getCols() const {
+    return cols;
+}
+
+const std::vector<std::vector<bool>>& Grid::getCurrentGrid() const {
+    return currentGrid;
+}
+
 void Grid::display() const {
     for (int r = 0; r < rows; ++r) {
         for (int c = 0; c < cols; ++c) {
@@ -27,6 +39,7 @@ void Grid::update() {
     }
     currentGrid = nextGrid;
 }
+
 
 void Grid::setCell(int row, int col, bool alive) {
     if (rows > 0 && row < rows && cols > 0 && col < cols) {

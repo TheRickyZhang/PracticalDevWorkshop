@@ -1,0 +1,3 @@
+C:/Users/ricky/Webmaster Stuff/Workshop 1/C++/cmake-build-debug/CMakeFiles/GameOfLife.dir
+C:/Users/ricky/Webmaster Stuff/Workshop 1/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ricky/Webmaster Stuff/Workshop 1/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

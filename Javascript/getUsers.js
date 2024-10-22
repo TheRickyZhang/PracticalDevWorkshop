@@ -42,6 +42,7 @@ async function getUsersWithPosts(userIds) {
         const user = await fetchUser(userId);
         const posts = await fetchPosts(userId);
         const formattedUser = await formatUserData(user, posts);
+        console.log("here");
         usersWithPosts.push(formattedUser);
     });
     return usersWithPosts;
@@ -95,5 +96,7 @@ function deepEqual(a, b) {
             }
         ]
     }));
+    console.log(result);
+    console.log(expected);
     console.log(deepEqual(result, expected));
 })();

@@ -1,0 +1,9 @@
+# ninja log v5
+10	667	7512714078840908	CMakeFiles/GameOfLife.dir/main.cpp.obj	a5149f5abad9f78e
+30	781	7512714079986782	CMakeFiles/GameOfLife.dir/Game.cpp.obj	781630cdb523059b
+20	864	7512714080809756	CMakeFiles/GameOfLife.dir/Grid.cpp.obj	9142330b46c2c3f
+864	1132	7512714083414669	GameOfLife.exe	b0f28795a5811e2e
+54	665	7512722024104407	CMakeFiles/GameOfLife.dir/main.cpp.obj	a5149f5abad9f78e
+66	990	7512722027345691	CMakeFiles/GameOfLife.dir/Game.cpp.obj	781630cdb523059b
+60	1004	7512722027483469	CMakeFiles/GameOfLife.dir/Grid.cpp.obj	9142330b46c2c3f
+1004	1227	7512722029642009	GameOfLife.exe	b0f28795a5811e2e

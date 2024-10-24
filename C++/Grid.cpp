@@ -13,10 +13,6 @@ int Grid::getCols() const {
     return cols;
 }
 
-const std::vector<std::vector<bool>>& Grid::getCurrentGrid() const {
-    return ;
-}
-
 void Grid::display() const {
     for (int r = 0; r < rows; ++r) {
         for (int c = 0; c < cols; ++c) {

@@ -40,8 +40,6 @@ class Grid:
         count = 0
         for dr in dirs:
             for dc in dirs:
-                if dr == 0 and dc == 0:
-                    continue
                 r = row + dr
                 c = col + dc
                 if 0 <= r < self.rows and 0 <= c < self.cols and self.current_grid[r][c]:

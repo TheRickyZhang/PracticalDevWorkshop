@@ -14,7 +14,7 @@ int Grid::getCols() const {
 }
 
 const std::vector<std::vector<bool>>& Grid::getCurrentGrid() const {
-    return currentGrid;
+    return ;
 }
 
 void Grid::display() const {
